@@ -4,9 +4,8 @@ import { InscriptionvalideComponent } from './page/inscriptionvalide/inscription
 import { UnboardingComponent } from './page/unboarding/unboarding.component';
 
 const routes: Routes = [
-  {path: 'inscription', component: UnboardingComponent},
-  {path: 'validationinscription', component: InscriptionvalideComponent},
-  {path: '**', redirectTo: 'marche_aux_puces'},
+  {path: 'unboarding', component: UnboardingComponent},
+  {path: 'validationOfRegistration', component: InscriptionvalideComponent},
 ];
 
 @NgModule({

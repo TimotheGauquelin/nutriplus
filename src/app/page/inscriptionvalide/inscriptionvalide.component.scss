@@ -2,4 +2,42 @@
     height: 100%;
     width: 100%;
     background-color: #4CAF50;
+    //Flex//
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+circle-progress {
+    margin-bottom: 20px;
+}
+
+#ecritvalidation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p {
+    //Boite//
+    //Police//
+    color: white;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 27px;
+    margin: 0;
+}
+
+#mercidavoirchoisi {
+    color: gold;
+    font-family: Roboto;
+    font-size: 20px;
+}
+
+#nutriplus {
+    color: gold;
+    font-family: Roboto;
+    font-size: 20px;
 }

@@ -1,0 +1,87 @@
+header {
+    width: 375px;
+    height: 216px;
+    background-color: #4CAF50;
+    box-shadow: 0px 2px 4px grey;
+    margin-bottom: 5px;
+    //Flex//
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 375px;
+    height: 405px;
+    background-color: white;
+    //Flex//
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#blocinput {
+    margin-top: 35px;
+}
+
+#grostitre {
+    //Boite//
+    margin-bottom: 1px;
+    //Police//
+    font-family: Roboto;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+    //Flex//
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.333333px;
+}
+
+#petittitre {
+    //Flex//
+    display: flex;
+    align-items: center;
+    text-align: center;
+    //Police//
+    letter-spacing: -0.333333px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: medium;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.baliseinput {
+    width: 287px;
+    height: 47.94px;
+    background: #F8F8F8;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.baliseinput {
+    background-color: #f7f7f7;
+    height: 48px;
+    width: 288px;
+    border: 2px solid #dfe1e5;
+    border-radius: 20px;
+    margin-bottom: 22px;
+    //Flex//
+    display: flex;
+}
+
+#boutonvalider {
+    //Boite//
+    background-color: #FFEB3B;
+    height: 45px;
+    width: 230px;
+    margin-top: 20px;
+    box-shadow: 0px 2px 4px grey;
+    border-radius: 20px;
+    overflow: visible;
+}

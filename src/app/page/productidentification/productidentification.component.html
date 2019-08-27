@@ -1,0 +1,47 @@
+<app-barreblancheforproductidentification>
+    <div id="boutondroit"></div>
+    <div id="barreblancheecrit"></div>
+    <div id="boutongauche"></div>
+</app-barreblancheforproductidentification>
+
+<main>
+    <div id="mainwhiteblock">
+        <div id="productmaindescription">
+            <div id="productmaindescriptionimage"><img class="img2" src="{{ product.image_small_url }}"></div>
+            <div id="productmaindescriptionlogo">
+                <div id="productmaindescriptionbrand">{{ product.brands }} : {{ product.product_name }}
+                </div>
+                <div id="productmaindesctriptionquantity"> Quantité : {{ product.quantity }}
+                </div>
+            </div>
+            <!-- <h1>EAN : {{ product.code }}</h1> -->
+            <!-- <ul>
+                <li>
+                    <div class="bold">Marque : </div>
+                    <div class="description"> {{ product.brands_tags }}</div>
+                </li><br>
+                <li>
+                    <div class="bold">Allergies :</div>
+                    <div class="description"> {{ product.allergens_from_ingredients}}</div>
+                </li><br>
+                <li>
+                    <div class="bold">Nutrition :</div><img class="img1" src="{{ product.image_nutrition_url }}"></li><br>
+                <li>
+                    <div class="bold">Ingredients : </div>
+                    <div class="description">{{ product.ingredients_text_fr}}</div>
+
+                </li><br>
+                <li>
+                    <div class="bold">Visuel : </div>
+                </li><br></ul> -->
+        </div>
+        <div id="productingredientsanalysis">
+            <div id="productingredientsubtitle1"> Analyses des ingrédients :</div>
+            <div class="description"> -{{ product.ingredients_text}} {{ product.ingredients_analysis_tags}}
+            </div>
+        </div>
+        <div id="productnutritionalreferences">
+            <div id="productingredientsubtitle2"> Repères nutritionnels pour 100g :</div>
+        </div>
+    </div>
+</main>

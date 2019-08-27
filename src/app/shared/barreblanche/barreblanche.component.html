@@ -1,0 +1,20 @@
+<div id="boutondroit"><i color="primary" class="material-icons">
+  arrow_back
+  </i></div>
+<div id="barreblancheecrit">
+    <p> Dernières Recherches</p>
+</div>
+<div id="boutongauche"><button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+    <mat-icon>more_vert</mat-icon>
+  </button>
+    <mat-menu #menu="matMenu">
+        <button mat-menu-item>
+      <mat-icon>dialpad</mat-icon>
+      <span>Nouvelle Recherche</span>
+    </button>
+        <button mat-menu-item>
+      <mat-icon>  panorama_fish_eye</mat-icon>
+      <span>Option</span>
+    </button>
+    </mat-menu>
+</div>

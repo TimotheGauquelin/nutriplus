@@ -1,4 +1,22 @@
 :host {
     height: 100%;
     width: 100%;
+    //Flex//
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+    background-color: #C8E6C9;
+    //Flex//
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mat-form-field-outline-start,
+.mat-form-field-outline-end {
+    border-radius: 50 !important;
 }

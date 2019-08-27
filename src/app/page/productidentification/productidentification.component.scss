@@ -1,0 +1,122 @@
+:host {
+    height: 100%;
+    width: 100%;
+    //Flex//
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+    background-color: #C8E6C9;
+    //Flex//
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#mainwhiteblock {
+    height: 560px;
+    width: 349px;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+#productmaindescription {
+    height: 33%;
+    width: 100%;
+    //Flex//
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#productingredientsanalysis {
+    height: 33%;
+    width: 100%;
+    //Flex//
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#productingredientsubtitle1 {
+    height: 40px;
+    width: 330px;
+    left: 6.0%;
+    right: 6.0%;
+    top: 41.0%;
+    bottom: 52.0%;
+    background-color: FBFBFB;
+    border: 1px solid rgb(175, 175, 175);
+    box-sizing: border-box;
+    //Flex//
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#productnutritionalreferences {
+    height: 33%;
+    width: 100%;
+    //Flex//
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#productingredientsubtitle2 {
+    height: 40px;
+    width: 330px;
+    left: 6.0%;
+    right: 6.0%;
+    top: 69.0%;
+    bottom: 24.0%;
+    background-color: #FBFBFB;
+    border: 1px solid rgb(175, 175, 175);
+    box-sizing: border-box;
+    //Flex//
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#productmaindescriptionimage {
+    height: 100%;
+    width: 50%;
+    //Flex//
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    height: 120px;
+    width: 150px;
+    border-left: 10px;
+}
+
+#productmaindescriptionlogo {
+    height: 100%;
+    width: 49%;
+    background-color: yellow;
+    //Flex//
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    //Police//
+}
+
+#productmaindescriptionbrand {
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+#productmaindesctriptionquantity {
+    margin-left: 5px;
+}

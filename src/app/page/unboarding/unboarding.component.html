@@ -5,10 +5,10 @@
 </header>
 <main>
     <div id="blocinput">
-        <input class="baliseinput" placeholder="   Nom">
-        <input class="baliseinput" placeholder="   Prenom">
-        <input class="baliseinput" placeholder="   Email">
-        <input class="baliseinput" placeholder="   Numero Mobile">
+        <input matInput class="baliseinput" placeholder="Nom" required>
+        <input matInput class="baliseinput" placeholder="Prenom" required>
+        <input matInput class="baliseinput" type="email" placeholder="Email" required>
+        <input matInput class="baliseinput" type="password" placeholder="Mot de Passe" required>
     </div>
-    <button mat-button id="boutonvalider">Valider l'inscription</button>
+    <button mat-button id="boutonvalider" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}" [routerLink]="['/validationOfRegistration']">Valider l'inscription</button>
 </main>

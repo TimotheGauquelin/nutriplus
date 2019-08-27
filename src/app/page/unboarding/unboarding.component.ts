@@ -10,6 +10,7 @@ export class UnboardingComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+
   }
 
 }

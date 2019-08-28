@@ -7,4 +7,5 @@ export interface Product {
   image_small_url: string;
   ingredients_text: string;
   ingredients_analysis_tags: string;
+  ingredients_from_palm_oil_n: number;
 }

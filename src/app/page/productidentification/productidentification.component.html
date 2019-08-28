@@ -37,11 +37,21 @@
         </div>
         <div id="productingredientsanalysis">
             <div id="productingredientsubtitle1"> Analyses des ingrédients :</div>
-            <div class="description"> -{{ product.ingredients_text}} {{ product.ingredients_analysis_tags}}
+            <div class="description">
+                <!-- -{{ product.ingredients_text}} -->
             </div>
-        </div>
-        <div id="productnutritionalreferences">
-            <div id="productingredientsubtitle2"> Repères nutritionnels pour 100g :</div>
+            <div id="goodorbadblock">
+                <div id="goodforheath">
+                    <div *ngIf="!contientPalme" id="havenotpalmoilblock"> Sans Huilde de Palme</div>
+                </div>
+
+                <div id="badforhealth">
+                    <div *ngIf="contientPalme" id="havepalmoilblock"> Avec Huile de de Palme</div>
+                </div>
+            </div>
+            <div id="productnutritionalreferences">
+                <div id="productingredientsubtitle2"> Repères nutritionnels pour 100g :</div>
+            </div>
         </div>
     </div>
 </main>

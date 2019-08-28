@@ -19,6 +19,7 @@ import { BlockforhistoryComponent } from './shared/blockforhistory/blockforhisto
 import { ProductidentificationComponent } from './page/productidentification/productidentification.component';
 // tslint:disable-next-line: max-line-length
 import { BarreblancheforproductidentificationComponent } from './shared/barreblancheforproductidentification/barreblancheforproductidentification.component';
+import { MatFormFieldModule } from '@angular/material/form-field';
 
 @NgModule({
   declarations: [
@@ -41,6 +42,7 @@ import { BarreblancheforproductidentificationComponent } from './shared/barrebla
     MatButtonModule,
     MatIconModule,
     MatMenuModule,
+    MatFormFieldModule,
     ReactiveFormsModule,
     NgCircleProgressModule.forRoot({
       radius: 100,

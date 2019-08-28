@@ -1,14 +1,21 @@
 <header>
-    <p id="grostitre">Bienvenue sur NutriPLUS+
-    </p>
-    <p id="petittitre">Veuillez inserer vos coordonnées pour poursuivre l’inscription</p>
+    <div id="grostitre">Bienvenue sur NutriPLus+</div>
+    <div id="petittitre">Veuillez inserer vos coordonées pour poursuivre l'inscription</div>
 </header>
 <main>
-    <div id="blocinput">
-        <input matInput class="baliseinput" placeholder="Nom" required>
-        <input matInput class="baliseinput" placeholder="Prenom" required>
-        <input matInput class="baliseinput" type="email" placeholder="Email" required>
-        <input matInput class="baliseinput" type="password" placeholder="Mot de Passe" required>
-    </div>
-    <button mat-button id="boutonvalider" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}" [routerLink]="['/validationOfRegistration']">Valider l'inscription</button>
+    <form id="blocinput" [formGroup]="inscriptionForm" class="form" (ngSubmit)="onSubmitForm()">
+        <mat-form-field>
+            <input matInput placeholder="Nom" formControlName="nom" required>
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Prénom" formControlName="prenom" required>
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Pseudo" formControlName="motdepasse" required>
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="E-mail" formControlName="email" required>
+        </mat-form-field>
+        <button mat-raised-button color="accent" type="submit" [disabled]="!inscriptionForm.valid">Valider l'inscription</button>
+    </form>
 </main>

@@ -59,6 +59,61 @@ main {
     justify-content: center;
 }
 
+#goodorbadblock {
+    height: 300px;
+    width: 100%;
+    background-color: rgb(148, 60, 136);
+    //Flex//
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#goodforhealth {
+    height: 100%;
+    width: 50%;
+    background-color: rgb(60, 84, 148);
+    //Flex//
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#havenotpalmoilblock {
+    height: 30px;
+    width: 160px;
+    background-color: #5ADA60;
+    border-radius: 20px;
+    //Flex//
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#havepalmoilblock {
+    height: 30px;
+    width: 160px;
+    background-color: rgb(209, 49, 57);
+    border-radius: 20px;
+    //Flex//
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#badforhealth {
+    height: 100%;
+    width: 50%;
+    background-color: rgb(156, 182, 60);
+    //Flex//
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 #productnutritionalreferences {
     height: 33%;
     width: 100%;
